@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 极简睡眠日记</title>
+    
+    <!-- 引入 Tailwind CSS 以进行快速样式设计 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 引入 Google Fonts 字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* 自定义样式 */
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background-color: #f0f2f5; /* 使用一个柔和的背景色 */
+        }
+        
+        /* 玻璃拟态效果的卡片样式 */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px) saturate(180%);
+            -webkit-backdrop-filter: blur(10px) saturate(180%);
+            border: 1px solid rgba(209, 213, 219, 0.3);
+            border-radius: 1rem; /* 更圆润的边角 */
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        }
+
+        /* 渐变背景，增加页面的视觉吸引力 */
+        .gradient-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 10% 20%, rgb(163, 230, 255) 0%, rgb(224, 237, 255) 90.2%);
+        }
+    </style>
+</head>
+<body class="text-gray-800 leading-relaxed">
+    <div class="gradient-bg"></div>
+
+    <div class="container mx-auto px-6 py-12 md:py-20 max-w-4xl">
+
+        <!-- 头部区域 -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-3">隐私政策</h1>
+            <p class="text-lg text-gray-600">极简睡眠日记</p>
+        </header>
+
+        <!-- 隐私政策内容 -->
+        <section id="privacy-policy-content" class="mb-12">
+            <div class="glass-card p-8 md:p-12">
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">我们如何保护您的隐私</h2>
+                <p class="mb-4 text-gray-700">
+                    极简睡眠日记App（以下简称“本App”）致力于保护用户的隐私。我们深知数据隐私的重要性，并采取一切必要措施确保您的个人信息安全。
+                </p>
+
+                <h3 class="font-semibold text-xl mb-4 text-gray-900">1. 数据收集与存储</h3>
+                <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+                    <li><strong>不收集任何个人身份信息：</strong> 本App在任何情况下都不会收集您的姓名、电子邮件地址、电话号码或任何其他可识别您个人身份的信息。</li>
+                    <li><strong>本地数据存储：</strong> 您在本App中记录的所有睡眠数据（包括入睡时间、起床时间、睡眠质量评级和心情记录）仅存储在您自己的设备上。这些数据不会上传到任何服务器、云服务或第三方平台。</li>
+                </ul>
+
+                <h3 class="font-semibold text-xl mb-4 text-gray-900">2. 数据使用</h3>
+                <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+                    <li><strong>仅供个人使用：</strong> 您记录的数据仅用于为您提供睡眠记录和回顾功能。本App不会将您的数据用于任何分析、营销、广告或其他商业目的。</li>
+                    <li><strong>无数据共享：</strong> 我们绝不会与任何第三方共享、出售、出租或交易您的任何数据。</li>
+                </ul>
+
+                <h3 class="font-semibold text-xl mb-4 text-gray-900">3. 数据导出</h3>
+                <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+                    <li>本App提供数据导出功能，允许您将自己的睡眠记录导出为CSV格式文件。此操作完全由您控制，导出后的文件存储在您的设备上，其管理和使用由您负责。</li>
+                </ul>
+
+                <h3 class="font-semibold text-xl mb-4 text-gray-900">4. 权限要求</h3>
+                <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+                    <li>本App仅请求运行所需的最少权限。例如，为了保存导出文件，可能需要存储权限。我们不会请求任何不必要的权限。</li>
+                </ul>
+
+                <h3 class="font-semibold text-xl mb-4 text-gray-900">5. 政策变更</h3>
+                <ul class="list-disc list-inside mb-6 text-gray-700 space-y-2">
+                    <li>如果我们的隐私政策有任何更新，我们将在本页面上发布最新版本。建议您定期查阅本页面以了解任何变更。</li>
+                </ul>
+
+                <h3 class="font-semibold text-xl mb-4 text-gray-900">6. 联系我们</h3>
+                <p class="mb-4 text-gray-700">
+                    如果您对本隐私政策有任何疑问或疑虑，请随时通过以下方式联系我们：
+                </p>
+                <p class="text-blue-600 font-semibold">
+                    电子邮件：<a href="mailto:chaowu.ycw@gmail.com" class="hover:underline">chaowu.ycw@gmail.com</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- 返回主页链接 -->
+        <div class="text-center mt-10">
+            <a href="index.html" class="inline-block bg-blue-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105">
+                返回主页
+            </a>
+        </div>
+
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="text-center py-8">
+        <p class="text-gray-500">&copy; 2025 chaowu.yang. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
